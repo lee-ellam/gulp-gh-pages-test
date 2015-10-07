@@ -1,0 +1,10 @@
+# Mac OSX
+.DS_Store
+._.DS_Store
+
+# Packages
+node_modules/
+bower_components/
+
+# Build
+demo/build/

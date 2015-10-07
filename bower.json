@@ -1,0 +1,24 @@
+{
+  "name": "dna-dna-test",
+  "version": "0.0.0",
+  "description": "JustGiving DNA dna-test",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dna-core": "git@github.com:JustGiving/GG.FrontEnd.DNA.core.git#0.x"
+  },
+  "devDependencies": {
+    "justgiving-tools": "git@github.com:JustGiving/GG.FrontEnd.Tools.git#0.x",
+    "dna-styleguide": "git@github.com:JustGiving/GG.FrontEnd.DNA.styleguide.git#0.x",
+    "justgiving-bundle-global": "git@github.com:JustGiving/GG.FrontEnd.Bundle.Global.git#0.x",
+    "justgiving-bundle-head": "git@github.com:JustGiving/GG.FrontEnd.Bundle.Head.git#0.x"
+  }
+}
