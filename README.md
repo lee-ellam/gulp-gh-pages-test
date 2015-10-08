@@ -16,7 +16,7 @@ Once installed, from the root directory run:
 
 
 ## Update
-```bower update dna-test``` 
+```bower update dna-test```
 
 updates to latest minor or patch version (backwards compatible)
 
@@ -34,18 +34,18 @@ Manually increment the major digit in the version flag in the microsite's ```bow
 
 - Once your changes are in ```master``` **and pushed** there are two steps to making a release:
 
-1. Decide whether you have made [patch, minor or major](http://semver.org/) update and run **one of**: 
-  
+1. Decide whether you have made [patch, minor or major](http://semver.org/) update and run **one of**:
+
   ```js
   // If you made a semver patch change
   gulp release:patch
 
   // If you made a semver minor change
   gulp release:minor
-  
+
   // If you made a semver major change
   gulp release:major
-  ``` 
+  ```
 
   Gulp will update your component's ```bower.json``` and ```package.json``` version properties and create and push a new semver git tag. Gulp will report to you the tag number it has created
 
@@ -67,4 +67,3 @@ Manually increment the major digit in the version flag in the microsite's ```bow
 - ```dna-styleguide```
 
 ## Browser support
-
